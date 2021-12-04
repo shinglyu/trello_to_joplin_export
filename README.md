@@ -13,8 +13,7 @@ Here are some scripts that allows you to export your trello board to Jopin. You 
 
 # Alternative usage:
 If you just want a list of your cards as a markdown bullet point list.  Run
-    ```
-    python3 print export.json
-
-    ```
+```
+python3 print export.json
+```
 
