@@ -17,3 +17,9 @@ If you just want a list of your cards as a markdown bullet point list.  Run
 python3 print export.json
 ```
 
+# Caveats
+* Doesn't support images, checklist, attachments, etc.
+* Long file name will be trimmed.
+* Doesn't support Joplin tags. For that you need to convert to a more advanced format like ENEX or JEX.
+* Only tested on Linux (Ubuntu 20.04) with EXT4. You mileage might very if you use different OS and file system because of filename format limitations.
+
